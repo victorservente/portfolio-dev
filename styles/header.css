@@ -1,0 +1,40 @@
+h1 {
+  font: var(--title-lg);
+  margin-top: 8px;
+}
+
+h4 {
+ font: var(--text-md-2)
+}
+
+img {
+ position: relative;
+ align-self: center;
+}
+
+.subtitle {
+  font: var(--subtitle);
+  color: var(--gray-500); 
+}
+
+.destaque {
+  color: var(--red);
+}
+
+p {
+  color: var(--gray-400);
+  font: var(--text-sm-2);
+  margin-top: 20px;
+}
+
+nav {
+  display: flex; 
+  align-items: center; 
+  margin-top: 80px;
+}
+
+ div {
+  display: flex;
+  align-items: center;
+  margin-inline: 16px;
+ }

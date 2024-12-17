@@ -39,31 +39,12 @@ a {
   text-decoration: none;
 }
 
-header {
+.container {
   background-image: url(../assets/Background_Intro.png);
   background-size: cover; 
-  
+  padding: 120px 163px 183px 163px;
+ 
 }
 
-h1 {
-  font: var(--title-lg);
-}
 
-img {
- position: relative;
- po 
-}
 
-.subtitle {
-  font: var(--subtitle);
-  color: var(--gray-500); 
-}
-
-.destaque {
-  color: var(--red);
-}
-
-p {
-  color: var(--gray-400);
-  font: var(--text-sm-2);
-}
