@@ -3,18 +3,18 @@ h1 {
   margin-top: 8px;
 }
 
-h4 {
- font: var(--text-md-2)
-}
+
 
 img {
  position: relative;
  align-self: center;
+ /* padding-right: 8px; */
 }
 
 .subtitle {
   font: var(--subtitle);
   color: var(--gray-500); 
+  margin-top: 56px;
 }
 
 .destaque {
@@ -33,10 +33,26 @@ nav {
   margin-top: 80px;
 }
 
- div {
+figure {
   display: flex;
   align-items: center;
-  margin-inline: 16px;
+  margin-inline: 8px;
+  border: solid var(--gray-300);
+  padding: 8px 16px;
  }
+
+ figcaption{
+  padding: 8px;
+  span {
+    font: var(--text-md-2);
+  }
+ }
+
+ #arrow {
+  margin-top: 94px;
+  margin-bottom: 57px;
+ }
+
+
 
  

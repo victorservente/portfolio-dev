@@ -43,8 +43,12 @@ a {
   background-image: url(../assets/Background_Intro.png);
   background-size: cover; 
   padding: 120px 163px 183px 163px;
- 
+  justify-items: center;
 }
 
+.grid {
+  background-image: url(../assets/Background_Contacts.png);
+  
+}
 
 
