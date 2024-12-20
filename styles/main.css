@@ -54,4 +54,28 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   size: 330px 156px;
+  gap: 24px
 }
+
+#trabalhos img {
+  width: 306px;
+  height: 156px;
+}
+
+.block {
+  display: inline-block;
+  background-color: var( --gray-300);
+  border-radius: 12px;
+  padding: 12px;
+  size: 275px 330px
+}
+
+figcaption {
+  margin-top: 20px;
+  p{
+    color: var(--gray-400);
+    font: var(--text-sm-2);
+    margin-top: 8px;
+  }
+}
+

@@ -14,35 +14,41 @@ img {
   margin-top: 56px;
 }
 
+.container {
+  background-image: url(../assets/Background_Intro.png);
+  background-size: cover; 
+  padding: 120px 163px 183px 163px;
+  justify-items: center;
+  p {
+    color: var(--gray-400);
+    font: var(--text-sm-2);
+    margin-top: 20px;
+  }
+}
+
 .destaque {
   color: var(--red);
 }
 
-p {
-  color: var(--gray-400);
-  font: var(--text-sm-2);
-  margin-top: 20px;
-}
-
 nav {
   display: flex; 
+  flex-direction: row;
   align-items: center; 
   margin-top: 80px;
 }
-
+/* AJEITAR AQUI */
 figure {
-  display: flex;
-  align-items: center;
-  margin-inline: 8px;
+  display: grid;
+  align-content: center;
+}
+
+.content-tag {
+  font: var(--text-md-2);
+  background-color: var(--gray-300);
+  padding: 8px 16px;
+  border-radius: 25px;margin-inline: 8px;
   border: solid var(--gray-300);
   padding: 8px 16px;
- }
-
- figcaption{
-  padding: 8px;
-  span {
-    font: var(--text-md-2);
-  }
  }
 
  #arrow {

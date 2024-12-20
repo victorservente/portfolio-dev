@@ -39,12 +39,7 @@ a {
   text-decoration: none;
 }
 
-.container {
-  background-image: url(../assets/Background_Intro.png);
-  background-size: cover; 
-  padding: 120px 163px 183px 163px;
-  justify-items: center;
-}
+
 
 #main {
   background-image: url(../assets/Background_Contacts.png);
@@ -53,4 +48,6 @@ a {
 
 h4 {
   font: var(--title-sm);
+  display: inline-block;
+
 }
