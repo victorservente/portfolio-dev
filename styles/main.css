@@ -1,6 +1,61 @@
-#header {
+#contato div:nth-child(1) {
   font: var(--subtitle);
   color: var(--purple);
-  
 }
 
+#contato div:nth-child(2) {
+  font: var(--title-md);
+}
+
+#contato div:nth-child(3) {
+  font: var(--text-md-2)
+}
+
+section {
+  display: grid; 
+  gap: 8px;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.services :nth-child(1) {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+.services :nth-child(2) {
+  font: var(--title-md);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#card {
+  gap: 24px;
+  padding: 20px;
+  img {
+    height: 48px;
+    width: 48px;
+  }
+}
+
+.primary {
+  font: var(--title-sm);
+}
+
+.secondary {
+  font: var(--text-sm-2);
+}
+
+#trabalhos {
+  display: grid;
+  grid-area: trabalhos;
+  img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+}

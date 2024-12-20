@@ -46,9 +46,11 @@ a {
   justify-items: center;
 }
 
-.grid {
+#main {
   background-image: url(../assets/Background_Contacts.png);
-  
+  background-size: 1366px 2288px;
 }
 
-
+h4 {
+  font: var(--title-sm)
+}
