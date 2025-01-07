@@ -33,28 +33,29 @@ img {
 nav {
   display: flex; 
   flex-direction: row;
-  align-items: center; 
   margin-top: 80px;
+  figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
-/* AJEITAR AQUI */
-figure {
-  display: grid;
-  align-content: center;
-}
+
 
 .content-tag {
   font: var(--text-md-2);
   background-color: var(--gray-300);
   padding: 8px 16px;
-  border-radius: 25px;margin-inline: 8px;
+  border-radius: 25px;
+  margin-inline: 8px;
   border: solid var(--gray-300);
-  padding: 8px 16px;
- }
+  
+}
 
- #arrow {
+#arrow {
   margin-top: 94px;
   margin-bottom: 57px;
- }
+}
 
 
 
