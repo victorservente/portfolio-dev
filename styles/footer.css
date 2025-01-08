@@ -1,0 +1,54 @@
+/* footer {
+  display: grid; 
+  gap: 8px;
+  justify-items: center;
+  align-items: center;
+} */
+
+#contato {
+  padding: 128px 120px 200px 120px;
+  background-image: url(../assets/Background_Contacts.png);
+  display: grid; 
+  gap: 8px;
+  text-align: center;
+}
+
+#gostou {
+  display: inline-block;
+}
+
+#gostou div:nth-child(1) {
+  font: var(--subtitle);
+  color: var(--purple);
+}
+
+#gostou div:nth-child(2) {
+  font: var(--title-md);
+}
+
+#gostou div:nth-child(3) {
+  font: var(--text-md-2)
+}
+
+.tags a{
+  display: flex;
+  align-items: center;
+  font: var(--text-md-2);
+  background-color: var(--gray-300);
+  padding: 23px 52px 23px 22px;
+  border-radius: 6px;
+  border: solid var(--gray-300);
+  gap: 12px;
+  margin-bottom: 16px;
+  width: 400px;
+  height: 68px;
+}
+
+
+.tags figure:nth-child(1) {
+  margin-top: 48px;
+}
+
+/* a:hover {
+  color: #3996DB;
+} */

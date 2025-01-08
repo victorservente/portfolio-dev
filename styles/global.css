@@ -37,9 +37,9 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
+  align-items: center;
 }
-
-
 
 #projects {
   background-image: url(../assets/Background_Contacts.png);

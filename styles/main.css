@@ -1,17 +1,9 @@
-#card {
-  gap: 24px;
-  padding: 20px;
-  img {
-    height: 48px;
-    width: 48px;
-  }
-}
-
 #trabalhos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   size: 330px 156px;
-  gap: 24px
+  gap: 24px;
+  margin-bottom: 128px;
 }
 
 #trabalhos img {
@@ -36,24 +28,30 @@ section {
   gap: 8px;
   justify-items: center;
   align-items: center;
-  margin-bottom: 48px;
 }
 
-#block {
-  margin-top: 30px;
+#services {
   background-color: #0D0E11;
+  padding: 88px 120px 120px 120px;
 }
 
-.services :nth-child(1) {
+#ajudar :nth-child(1) {
   font: var(--subtitle);
   color: var(--red);
 }
-
-.services :nth-child(2) {
+#ajudar :nth-child(2) {
   font: var(--title-md);
 }
 
-
+#card {
+  gap: 24px;
+  margin-top: 56px;
+  padding: 20px;
+  img {
+    height: 48px;
+    width: 48px;
+  }
+}
 
 .grid {
   display: grid;
@@ -76,21 +74,5 @@ section {
   size: 275px 330px
 }
 
-#contato {
-  margin-top: 128px;
-}
-
-#contato div:nth-child(1) {
-  font: var(--subtitle);
-  color: var(--purple);
-}
-
-#contato div:nth-child(2) {
-  font: var(--title-md);
-}
-
-#contato div:nth-child(3) {
-  font: var(--text-md-2)
-}
 
 
