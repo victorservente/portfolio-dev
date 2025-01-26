@@ -1,13 +1,7 @@
-/* footer {
-  display: grid; 
-  gap: 8px;
-  justify-items: center;
-  align-items: center;
-} */
-
 #contato {
   padding: 128px 120px 200px 120px;
   background-image: url(../assets/Background_Contacts.png);
+  background-size: 100%;
   display: grid; 
   gap: 8px;
   text-align: center;
@@ -30,12 +24,23 @@
   font: var(--text-md-2)
 }
 
+.tag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.arrow {
+  margin-left: auto;
+}
+
 .tags a{
   display: flex;
   align-items: center;
   font: var(--text-md-2);
   background-color: var(--gray-300);
-  padding: 23px 52px 23px 22px;
+  padding: 23px 24px 23px 22px;
   border-radius: 6px;
   border: solid var(--gray-300);
   gap: 12px;
@@ -43,6 +48,9 @@
   width: 400px;
   height: 68px;
   
+  &:hover, &:has(tags:focus) {
+    border-color: var(--blue);
+  }
 }
 
 

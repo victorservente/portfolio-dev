@@ -1,9 +1,21 @@
+
+
+#ajudar :nth-child(1) {
+  font: var(--subtitle);
+  color: var(--red);
+}
+#ajudar :nth-child(2) {
+  font: var(--title-md);
+}
+
+
 #trabalhos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   size: 330px 156px;
   gap: 24px;
-  margin-bottom: 128px;
+  margin-top: 56px;
+  margin-bottom: 144px;
 }
 
 #trabalhos img {
@@ -11,7 +23,7 @@
   height: 156px;
 }
 
-#trabalhos {
+.square {
   figcaption {
     margin-top: 20px;
     p{
@@ -20,7 +32,13 @@
       margin-top: 8px;
     }
   }
-  margin-bottom: 88px;
+  
+ .block {
+    &:hover {
+      border: 1px solid var(--gray-400);
+      border-radius: .5rem;
+    }
+  }
 }
 
 section {
@@ -35,13 +53,7 @@ section {
   padding: 88px 120px 120px 120px;
 }
 
-#ajudar :nth-child(1) {
-  font: var(--subtitle);
-  color: var(--red);
-}
-#ajudar :nth-child(2) {
-  font: var(--title-md);
-}
+
 
 #card {
   gap: 24px;

@@ -17,7 +17,7 @@ img {
 .container {
   background-image: url(../assets/Background_Intro.png);
   background-size: cover; 
-  padding: 120px 163px 183px 163px;
+  padding: 120px 163px 129px 163px;
   justify-items: center;
   p {
     color: var(--gray-400);
@@ -38,6 +38,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 8px;
   }
 }
 
@@ -53,7 +54,7 @@ nav {
 
 #arrow {
   margin-top: 94px;
-  margin-bottom: 57px;
+ 
 }
 
 
