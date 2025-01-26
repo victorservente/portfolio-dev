@@ -1,6 +1,6 @@
 h1 {
   font: var(--title-lg);
-  margin-top: 8px;
+  margin-top: .5rem;
 }
 
 img {
@@ -11,18 +11,18 @@ img {
 .subtitle {
   font: var(--subtitle);
   color: var(--gray-500); 
-  margin-top: 56px;
+  margin-top: 3.5rem;
 }
 
 .container {
   background-image: url(../assets/Background_Intro.png);
   background-size: cover; 
-  padding: 120px 163px 129px 163px;
+  padding: 7.5rem 10.1rem 8.06rem 7.5rem;
   justify-items: center;
   p {
     color: var(--gray-400);
     font: var(--text-sm-2);
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 }
 
@@ -38,7 +38,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 8px;
+    gap: .5rem;
   }
 }
 
@@ -46,15 +46,14 @@ nav {
 .content-tag {
   font: var(--text-md-2);
   background-color: var(--gray-300);
-  padding: 8px 16px;
-  border-radius: 25px;
-  margin-inline: 8px;
+  padding: .5rem 1rem;
+  border-radius: 1.56rem;
+  margin-inline: .5rem;
   border: solid var(--gray-300);
 }
 
 #arrow {
-  margin-top: 94px;
- 
+  margin-top: 5.87rem;
 }
 
 

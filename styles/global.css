@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -21,18 +21,25 @@
   --font-family-2: 'maven pro', sans-serif;
   --font-family-3: 'inconsolata', sans-serif;
 
-  --title-lg: 700 56px/120% var(--font-family-1);
-  --title-md: 700 24px/120% var(--font-family-1);
-  --title-sm: 700 16px/120% var(--font-family-1);
+  --title-lg: 700 3.5rem/120% var(--font-family-1);
+  --title-md: 700 1.5rem/120% var(--font-family-1);
+  --title-sm: 700 1rem/120% var(--font-family-1);
 
-  --subtitle: 400 20px/120% var(--font-family-3);
+  --subtitle: 400 1.25rem/120% var(--font-family-3);
 
-  --text-md-2: 400 16px/140% var(--font-family-2);
-  --text-sm-2: 400 14px/140% var(--font-family-2);
+  --text-md-2: 400 1rem/140% var(--font-family-2);
+  --text-sm-2: 400 .87rem/140% var(--font-family-2);
 }
 
 body {
  color: var(--gray-500);
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+}
+
+header {
+  width: 100%;
 }
 
 a {
@@ -42,7 +49,6 @@ a {
 }
 
 #projects {
-  /* background-image: url(../assets/Background_Contacts.png); */
   background-color: var(--gray-200);
   background-size: 1366px 2288px;
 }
@@ -51,3 +57,8 @@ h4 {
   font: var(--title-sm);
   display: inline-block;
 }
+
+main {
+  flex-grow: 1;
+}
+

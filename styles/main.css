@@ -1,3 +1,7 @@
+#ajudar {
+  align-items: center;
+}
+
 
 
 #ajudar :nth-child(1) {
@@ -8,28 +12,27 @@
   font: var(--title-md);
 }
 
-
 #trabalhos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  size: 330px 156px;
-  gap: 24px;
-  margin-top: 56px;
-  margin-bottom: 144px;
+  size: 20.62rem 19.75rem;
+  gap: 1.5rem;
+  margin-top: 3.5rem;
+  margin-bottom: 9rem;
 }
 
 #trabalhos img {
-  width: 306px;
-  height: 156px;
+  width: 19.12rem;
+  height: 9.75rem;
 }
 
 .square {
   figcaption {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     p{
       color: var(--gray-400);
       font: var(--text-sm-2);
-      margin-top: 8px;
+      margin-top: .5rem;
     }
   }
   
@@ -43,25 +46,25 @@
 
 section {
   display: grid; 
-  gap: 8px;
+  gap: .5rem;
   justify-items: center;
   align-items: center;
 }
 
 #services {
   background-color: #0D0E11;
-  padding: 88px 120px 120px 120px;
+  padding: 5.5rem 7.5rem 7.5rem 5.5rem;
 }
 
 
 
 #card {
-  gap: 24px;
-  margin-top: 56px;
-  padding: 20px;
+  gap: 1.5rem;
+  margin-top: 3.5rem;
+  padding: 1.25rem;
   img {
-    height: 48px;
-    width: 48px;
+    height: 3rem;
+    width: 3rem;
   }
 }
 
@@ -82,8 +85,8 @@ section {
   display: inline-block;
   background-color: var( --gray-300);
   border-radius: 12px;
-  padding: 12px;
-  size: 275px 330px
+  padding: 0.75rem;
+  size: 17.18rem 20.62rem;
 }
 
 
